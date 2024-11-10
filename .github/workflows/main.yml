@@ -23,7 +23,7 @@ jobs:
           context: ./src
           push: true
           file: ./src/Dockerfile
-          tags: 
+          tags: |
             tiagowmm/fake-shop:latest
             tiagowmm/fake-shop:v${{ github.run_number }}
         
