@@ -39,6 +39,7 @@ jobs:
           aws-region: us-east-1
 
       - name: Configurar o kubectl 
-        run: echo "Executando o comando Docker Login"
+        run: aws eks update-kubeconfig -- name aula-k8s
+        
       - name: Deploy dos manifestos no kubernetes
         run: echo "Executar o kubectl apply"
