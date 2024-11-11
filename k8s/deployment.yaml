@@ -53,7 +53,7 @@ spec:
     spec:
       containers:
         - name: fakeshop
-          image: tiagowmm/fake-shop:latest
+          image: tiagowmm/fake-shop:v1
           ports:
             - containerPort: 5000
           env:
