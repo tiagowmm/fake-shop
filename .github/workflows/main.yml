@@ -52,3 +52,4 @@ jobs:
             ./k8s/deployment.yaml
           images: |
             tiagowmm/fake-shop:v${{ github.run_number }}
+            
